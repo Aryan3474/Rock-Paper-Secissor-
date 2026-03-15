@@ -5,7 +5,7 @@ Rock-Paper-Scissor game is descript how to broke after two item guessing. 3 item
 ![Output](Output3.png)
 ## Output
 
-![Output](Output2(3).png)
+![Output](Output2 (3).png)
 ## Output
 
-![Output](Output2(4).png)
+![Output](Output2 (4).png)
