@@ -10,11 +10,18 @@ Game Start...
 '''))
     if uc==1:
         for i in range(1,6):
-            userinput=int(input('''
+
+            while True:
+                userinput=int(input('''
 1.Rock
 2.scissor
 3.paper
 '''))
+
+                if userinput<=3 and userinput>=1:
+                    break
+                else:
+                    print("invalid input")
 
             if userinput==1:
                 uchoice = "Rock"
@@ -22,9 +29,6 @@ Game Start...
                 uchoice = "Scissor"
             elif userinput==3:
                 uchoice = "Paper"
-            else:
-                print("invalid input")
-                continue
 
             ComputerChoice= random.choice(["Rock","Paper","Scissor"])
             print(uchoice)
